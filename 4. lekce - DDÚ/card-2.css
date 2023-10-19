@@ -1,0 +1,107 @@
+.product-card-2 {
+  background-color: var(--product-white);
+  padding: 16px;
+  position: relative;
+  width: 300px;
+}
+
+.product-card-2 .stamp_bestseller {
+  background-color: var(--product-yellow);
+  border-radius: 5px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-card-2 .stamp_product_of_the_year {
+  background-color: var(--product-red);
+  color: white;
+  border-radius: 5px;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-card-2 .stamp_discount {
+  background-color: var(--product-red);
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.product-card-2 .product-image-container {
+  height: 224px;
+  text-align: center;
+}
+
+.product-card-2 img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.product-card-2 .more-info {
+  color: var(--product-gray);
+  text-decoration: underline;
+}
+
+.product-card-2 .price-info {
+  background-color: var(--product-light-red);
+  border-radius: 5px;
+  padding: 24px;
+  margin: 16px;
+  position: relative;
+}
+
+.product-card-2 .price-info-real_price {
+  font-weight: bold;
+  font-size: large;
+}
+
+.product-card-2 .price-info-discount {
+  font-weight: bold;
+  font-size: large;
+}
+
+.product-card-2 .price-info-basket {
+  position: absolute;
+  right: 16px;
+  top: 32px;
+}
+
+.product-card-2 .price-info-to-basket {
+  background-color: var(--product-lightgray);
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: 16px;
+  padding: 8px;
+}
+
+.product-card-2 .shipping {
+  background-color: var(--product-green);
+  color: var(--product-lightgreen);
+  border-radius: 5px;
+  padding: 24px;
+  margin: 16px;
+  position: relative;
+}
+
+.product-card-2 .shipping-information {
+  text-align: right;
+  position: absolute;
+  top: 24px;
+  right: 16px;
+  text-decoration: underline;
+}

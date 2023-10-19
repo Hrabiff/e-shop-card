@@ -1,0 +1,125 @@
+.product-card-3 {
+  background-color: var(--product-white);
+  position: relative;
+  padding: 16px;
+  width: 300px;
+}
+
+.product-card-3 h1 {
+  text-align: center;
+}
+
+.product-card-3 .top-rated_budge {
+  background-color: var(--product-dark-blue);
+  color: var(--product-white);
+  position: absolute;
+  top: 100px;
+  left: 8px;
+  border-radius: 4px;
+  font-size: larger;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.product-card-3 .sale-budge {
+  background-color: var(--product-red);
+  color: var(--product-white);
+  position: absolute;
+  top: 140px;
+  left: 8px;
+  border-radius: 4px;
+  font-size: larger;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.product-card-3 .discount-budge {
+  background-color: var(--product-red);
+  color: var(--product-white);
+  border-radius: 50%;
+  position: absolute;
+  top: 140px;
+  right: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 25px;
+}
+
+.product-card-3 .product-image {
+  text-align: center;
+}
+
+.product-card-3 img {
+  width: 240px;
+  height: 240px;
+}
+
+.product-card-3 .product-price-container {
+  position: relative;
+  border-radius: 8px;
+  background-color: var(--product-light-green);
+  margin: 24px;
+  padding: 16px;
+}
+
+.product-card-3 .product-price-before-sale-container {
+  display: inline;
+  text-decoration: line-through;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.product-card-3 .sale-container {
+  text-align: center;
+  display: inline;
+  font-weight: bold;
+  font-size: larger;
+  position: absolute;
+  left: 96px;
+  color: var(--product-red);
+  text-transform: uppercase;
+}
+
+.product-card-3 .product-price-after-sale-container {
+  display: inline;
+  font-weight: bold;
+  font-size: larger;
+  position: absolute;
+  right: 24px;
+}
+
+.product-card-3 .product-avability {
+  text-align: center;
+  background-color: var(--product-light-blue);
+  margin: 24px;
+  padding: 24px;
+  border-radius: 8px;
+}
+
+.product-card-3 .final-step-order {
+  background-color: var(--product-light-red);
+  border-radius: 8px;
+  position: relative;
+  margin: 24px;
+  padding: 24px;
+}
+
+.product-card-3 .final-step-order-basket {
+  display: inline-block;
+}
+
+.product-card-3 .final-step-order-buy {
+  display: inline-block;
+  position: absolute;
+  right: 16px;
+}
+
+.product-card-3 button {
+  border: 2px solid var(--product-white);
+  border-radius: 4px;
+}

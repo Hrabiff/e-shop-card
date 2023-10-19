@@ -1,0 +1,156 @@
+:root {
+  --product-white: #fff;
+  --product-red: #ee1212;
+  --product-light-red: #d64445;
+  --product-green: #7fcb5b61;
+  --product-light-green: #7de989;
+  --product-gray: #808080;
+  --product-brown: #413e01;
+  --product-yellow: #fffa87;
+  --product-dark-blue: #3119bb;
+  --product-light-blue: #9ad4de;
+  --background-gray: #ecebeb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.content {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 90%;
+  }
+}
+
+.hero-section {
+  background-image: url("hero-section-img.png");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  padding: 32px;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 32px;
+  }
+}
+
+.hero-text-description {
+  margin-top: 16px;
+  font-size: large;
+  font-weight: 500;
+}
+
+.hero-text-addition-button {
+  position: absolute;
+  bottom: 32px;
+  background-color: var(--product-light-red);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hero-text-sale-budge {
+  position: absolute;
+  right: 32px;
+  top: 52px;
+  background-color: var(--product-light-red);
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  font-size: 14px;
+}
+
+@media (min-width: 1200px) {
+  .hero-text-sale-budge {
+    visibility: hidden;
+  }
+}
+
+.promo-section {
+  gap: 16px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.promo-content {
+  position: absolute;
+  bottom: 16px;
+}
+
+.promo-heading {
+  color: #fff;
+  margin-bottom: 16px;
+}
+
+.promo-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-weight: bold;
+  background-color: var(--product-light-red);
+  cursor: pointer;
+}
+
+.promo-card-1,
+.promo-card-2,
+.promo-card-3 {
+  height: 250px;
+  width: 300px;
+  border-radius: 8px;
+  position: relative;
+  padding: 16px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: darken;
+}
+
+.promo-card-1 {
+  background-image: url("vysavac.png");
+}
+.promo-card-2 {
+  background-image: url("mobil.png");
+}
+.promo-card-3 {
+  background-image: url("clothes.png");
+}
+
+.card-section {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 16px;
+  background-color: rgba(47, 255, 78, 0.2);
+  padding: 8px;
+}
